@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chitalka Reader — читалка для iPad</title>
+<meta name="description" content="Chitalka Reader — личное приложение для чтения книг на iPad: FB2, EPUB, PDF, MOBI, TXT и другие форматы, библиотека и Google Диск.">
+<link rel="icon" href="icon.png">
+<style>
+  :root { --bg: #f6f1e7; --fg: #2b2620; --muted: #6e6457; --accent: #b5562a; --card: #fffdf8; --line: rgba(60,45,25,.12); }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1c1b19; --fg: #ece6db; --muted: #b4ab9c; --accent: #e08a52; --card: #24221f; --line: rgba(255,240,220,.1); } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 48px 20px 64px; }
+  header { display: flex; align-items: center; gap: 18px; }
+  header img { width: 72px; height: 72px; border-radius: 16px; }
+  h1 { font-family: Georgia, serif; font-size: 34px; line-height: 1.1; margin: 0; }
+  .sub { color: var(--muted); margin: 4px 0 0; }
+  h2 { font-family: Georgia, serif; margin-top: 36px; }
+  ul { padding-left: 22px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; margin-top: 28px; }
+  a { color: var(--accent); }
+  footer { margin-top: 48px; color: var(--muted); font-size: 14px; border-top: 1px solid var(--line); padding-top: 16px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon.png" alt="">
+    <div>
+      <h1>Chitalka Reader</h1>
+      <p class="sub">Читалка электронных книг для iPad · E-book reader for iPad</p>
+    </div>
+  </header>
+
+  <p>Chitalka Reader («Читалка») — личное некоммерческое приложение для чтения книг на iPad (iOS 12 и новее). Оно работает без интернета и хранит книги только на устройстве.</p>
+  <ul>
+    <li>Форматы: FB2, FB2.ZIP, EPUB, PDF, MOBI, AZW3, TXT, RTF, DOCX, ODT, HTML, CBZ.</li>
+    <li>Библиотека с книжной полкой, авторами, сериями и собственными полками.</li>
+    <li>Закладки, пометки, заметки, поиск по книге, чтение вслух.</li>
+    <li>Необязательное подключение Google Диска — только для чтения: чтобы найти и скачать на iPad свои книги.</li>
+  </ul>
+
+  <div class="card">
+    <strong>English.</strong> Chitalka Reader is a personal, non-commercial e-book reader for iPad. Books are stored on the device only.
+    Google Drive access is optional and read-only: it is used solely to let the user browse and download their own book files to the iPad.
+  </div>
+
+  <h2>Конфиденциальность · Privacy</h2>
+  <p><a href="privacy.html">Политика конфиденциальности / Privacy Policy</a></p>
+
+  <footer>Chitalka Reader · © 2026 · <a href="https://github.com/Mihasamatman/chitalka">GitHub</a></footer>
+</main>
+</body>
+</html>
